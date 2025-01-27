@@ -1,4 +1,4 @@
-from PySide6.QtWidgets import QApplication, QWidget, QPushButton, QMainWindow, QLineEdit
+from PySide6.QtWidgets import QApplication, QWidget, QPushButton, QMainWindow, QLineEdit 
 from PySide6.QtCore import QSize # Para definir el tamaño de los widgets
 import sys
 
