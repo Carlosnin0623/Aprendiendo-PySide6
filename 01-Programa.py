@@ -8,7 +8,7 @@ class MainWindow(QMainWindow):
         super().__init__()
         self.setWindowTitle("Hola mundo") # con este metodo configuramos el titulo para la ventana
         boton = QPushButton("Presiona el boton")
-        boton.setCheckable(True) # Si esta opcion esta configurada antes permite saber si el boton fue cliqueado y cuando dejo de estar cliqueado
+        boton.setCheckable(True) # Si esta opcion esta configurada antes, permite habilitar un segundo parametro que detecta si el botón fue cliqueado y cuando dejo de estar cliqueado
         boton.clicked.connect(self.boton_cliqueado) # clicked: permite realizar una accion cuando se haga click en el boton
        # boton.pressed.connect(self.boton_presionado) # pressed: permite realizar una accion cuando el boton se quede presionado
        # boton.released.connect(self.boton_liberado) # released: permite realizar una accion cuando el boton ha dejado de ser presionado
